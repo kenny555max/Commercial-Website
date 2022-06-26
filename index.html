@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website Using Html, Css, JavsScript</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="border-bottom">
+        <div class="container py-4 px-0 d-flex justify-content-between">
+            <h2>Ecommerce</h2>
+            <div class="shopping-cart-icon" id="shopping-cart-icon">
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="container p-0 my-4">
+        <div class="search-item">
+            <input type="search" id="search" class="form-control" placeholder="search for product.............">
+        </div>
+    </div>
+
+    <aside class="cartBar shadow-lg" id="cartBar">
+        <div class="cart-items">
+            <div class="cancel-btn text-right" id="cancel-btn">
+                <span>&times;</span>
+            </div>
+            <div class="title py-2 text-center">
+                <h4>Shopping Cart</h4>
+            </div>
+            <div class="display-items mb-2 border-bottom border-dark" id="display-items">
+
+            </div>
+            <div class="total text-right">
+                <h5>Total: $<span id="total-price">0</span></h5>
+            </div>
+            <div class="handler text-center">
+                <button type="button" id="buyNow" class="btn btn-success">Buy Now</button>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <div class="container p-0">
+            <h3 class="text-center py-2">Shop Products</h3>
+
+            <div class="display-products" id="display-products">
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

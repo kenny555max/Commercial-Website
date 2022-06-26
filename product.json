@@ -1,0 +1,50 @@
+[
+    {
+        "productId": 1,
+        "productImage": "img/man-4.jpg",
+        "productName": "Man Shirt",
+        "productPrice": 50
+    },
+    {
+        "productId": 2,
+        "productImage": "img/product-1.jpg",
+        "productName": "Sweater",
+        "productPrice": 20
+    },
+    {
+        "productId": 3,
+        "productImage": "img/product-6.jpg",
+        "productName": "Sweater",
+        "productPrice": 12
+    },
+    {
+        "productId": 4,
+        "productImage": "img/product-7.jpg",
+        "productName": "Bag",
+        "productPrice": 17
+    },
+    {
+        "productId": 5,
+        "productImage": "img/product-8.jpg",
+        "productName": "Hood",
+        "productPrice": 15
+    },
+    {
+        "productId": 6,
+        "productImage": "img/product-9.jpg",
+        "productName": "Shoe",
+        "productPrice": 25
+    },
+    {
+        "productId": 7,
+        "productImage": "img/women-1.jpg",
+        "productName": "Women Sweater",
+        "productPrice": 10
+    },
+    {
+        "productId": 8,
+        "productImage": "img/women-2.jpg",
+        "productName": "Women Sweater Design",
+        "productPrice": 25
+    }
+]

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shopping-cart-icon i{
+    font-size: 2em;
+    cursor: pointer;
+}
+.fa-shopping-bag{
+    cursor: pointer;
+}
+:is(.fa-shopping-bag, .product-price){
+    font-size: 1.2em;
+}
+.display-products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.products{
+    height: 450px;
+    transition: box-shadow 0.5s ease;
+}
+.products:hover{
+    box-shadow: 0 0 20px #808080;
+}
+.products img{
+    width: 100%;
+    height: 350px;
+}
+@media screen and (max-width: 1199px) {
+    .display-products{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .products{
+        height: 500px;
+    }
+    .products img{
+        width: 100%;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .display-products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    .display-products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .products{
+        height: 700px;
+    }
+    .products img{
+        width: 100%;
+        height: 600px;
+    }
+}
+aside{
+    position: fixed;
+    height: 100vh;
+    right: -400px;
+    top: 0;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease-in-out;
+}
+aside.active{
+    right: 0;
+}
+aside .cancel-btn span{
+    font-size: 2em;
+    cursor: pointer;
+}
+aside .item{
+    height: 150px;
+}
+aside .item .item-image{
+    width: 110px;
+    height: 110px;
+}
+aside .item .item-image img{
+    width: 110px;
+    height: 110px;
+}
+aside .delete-cart i{
+    font-size: 1.8em;
+    cursor: pointer;
+}
+@media screen and (max-width: 570px){
+    main{
+        padding: 20px;
+    }
+}
